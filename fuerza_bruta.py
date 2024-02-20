@@ -14,9 +14,8 @@ while i < len(contrasena):
     for caracter in ascii_lowercase:
         intentos += 1
         if caracter == contrasena[i]:
-            contrasena_encontrada += caracter
             i = i + 1
             break
 
+print(f"Contraseña: {contrasena}")
 print(f"Intentos: {intentos}")
-print(f"Contraseña encontrada: {contrasena_encontrada}")
